@@ -115,7 +115,7 @@
           id: 'nk-paket-a',
           name: 'Kotak Ini',
           layoutTemplate: 'kotak-ini',
-          svgFile: 'Assets/CYO Layout/Kotak Ini.svg',
+          svgFile: 'Assets/CYO Layout/kotak-ini.svg',
           sambalSectionId: 'section-6',
           sections: [
             { id: 'section-1', label: 'Bagian 1' },
@@ -130,7 +130,7 @@
           id: 'nk-paket-b',
           name: 'Kotak itu',
           layoutTemplate: 'kotak-itu',
-          svgFile: 'Assets/CYO Layout/Kotak itu.svg',
+          svgFile: 'Assets/CYO Layout/kotak-itu.svg',
           sections: [
             { id: 'section-1', label: 'Bagian 1' },
             { id: 'section-2', label: 'Bagian 2' },
@@ -156,7 +156,7 @@
           id: 'nk-tumpeng-mini',
           name: 'Tumpeng Mini',
           layoutTemplate: 'tumpeng-mini',
-          svgFile: 'Assets/CYO Layout/Tumpeng Mini.svg',
+          svgFile: 'Assets/CYO Layout/tumpeng-mini.svg',
           sambalSectionId: 'section-6',
           sections: [
             { id: 'section-1', label: 'Bagian 1' },
@@ -177,7 +177,7 @@
           id: 'ngariung-tempat-gini',
           name: 'Tempat Gini',
           layoutTemplate: 'tempat-gini',
-          svgFile: 'Assets/CYO Layout/Tempat Gini.svg',
+          svgFile: 'Assets/CYO Layout/tempat-gini.svg',
           sambalSectionId: 'section-6',
           sections: [
             { id: 'section-1', label: 'Bagian 1' },
@@ -192,7 +192,7 @@
           id: 'ngariung-tempat-gitu',
           name: 'Tempat Gitu',
           layoutTemplate: 'tempat-gitu',
-          svgFile: 'Assets/CYO Layout/Tempat Gitu.svg',
+          svgFile: 'Assets/CYO Layout/tempat-gitu.svg',
           sections: [
             { id: 'section-1', label: 'Bagian 1' },
             { id: 'section-2', label: 'Bagian 2' },
@@ -1231,6 +1231,11 @@
       .catch((error) => {
         console.error('Gagal memuat layout atau data harga racik menu:', error);
         if (cyoOptions) cyoOptions.textContent = 'Layout atau data harga menu belum dapat dimuat. Silakan muat ulang halaman.';
+        [cyoSelectSambal, cyoSelectBuah].forEach((select) => {
+          if (select?.options.length) {
+            select.options[0].textContent = 'Pilihan gagal dimuat. Muat ulang halaman.';
+          }
+        });
         showToast('Layout atau data harga menu tidak dapat dimuat');
       });
   }
@@ -1984,7 +1989,7 @@
   function initDeliveryDate() {
     const minimumDate = new Date();
     minimumDate.setHours(0, 0, 0, 0);
-    minimumDate.setDate(minimumDate.getDate() + 4);
+    minimumDate.setDate(minimumDate.getDate() + 3);
 
     const dateValue = formatLocalDate(minimumDate);
     deliveryDateNativeInput.min = dateValue;
@@ -2069,7 +2074,7 @@
       : deliveryDateInput.value
         ? isPickupMode()
           ? 'Pilih hari Jumat sebelum batas pemesanan Kamis pukul 21.00 WIB'
-          : 'Tanggal pengiriman minimal H+4 dari tanggal order'
+          : 'Tanggal pengiriman minimal H+3 dari tanggal order'
         : isPickupMode()
           ? 'Pilih tanggal pengambilan'
           : 'Pilih tanggal pengiriman';
@@ -2115,7 +2120,7 @@
 
     const minimumDate = new Date();
     minimumDate.setHours(0, 0, 0, 0);
-    minimumDate.setDate(minimumDate.getDate() + 4);
+    minimumDate.setDate(minimumDate.getDate() + 3);
     const minimumDateValue = formatLocalDate(minimumDate);
 
     if (!hasFridayOnlyItem()) {
@@ -2374,7 +2379,7 @@
       deliveryDateInput.focus();
       showToast(pickupMode
         ? 'Berkah Box hanya bisa diambil pada hari Jumat. Mohon pilih tanggal hari Jumat.'
-        : 'Tanggal pengiriman paling awal adalah H+4 dari tanggal order');
+        : 'Tanggal pengiriman paling awal adalah H+3 dari tanggal order');
       return;
     }
 
