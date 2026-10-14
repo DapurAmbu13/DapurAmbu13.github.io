@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dapur Ambu 13 | Katering Rumahan Bandung</title>
+  <meta name="description"
+    content="Pesan nasi box, tumpeng, dan katering di Bandung mulai Rp15.000. Racik menu sendiri, minimal 10 porsi, pesan lewat WhatsApp.">
+
+  <!-- Google Fonts: Merriweather & Lora -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="cyo-pricing.js"></script>
+</head>
+
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <img src="Assets/Logo/Logo DapurAmbu TP slim.png" alt="Logo Katering Dapur Ambu 13" class="logo-img">
+        <span class="logo-text">&nbsp;</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#menus">Menu</a></li>
+          <li><a href="#cyo">Terserah Kamu Aja</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-btn" id="cart-toggle-btn" aria-label="Buka keranjang">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none"
+            stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-count" id="cart-count">0</span>
+        </button>
+        <button class="hamburger" id="hamburger-btn" aria-label="Buka menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Katering Rumahan Bandung</p>
+        <h1>Nasi box dengan menu yang kamu pilih sendiri.</h1>
+        <p class="section-sub">Pilih nasi, lauk, dan sayur sesuai selera tim atau keluargamu. Dimasak sesuai pesanan dan diantar pada tanggal acaramu.</p>
+        <div class="hero-btns">
+          <a href="#cyo" class="btn btn-primary">Terserah Kamu Aja</a>
+          <a href="#menus" class="btn btn-outline">Lihat Menu</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <form class="menu-search" id="menu-search-form" role="search" autocomplete="off">
+          <label for="menu-search-input">Cari menu</label>
+          <div class="menu-search-field">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+              <circle cx="10.8" cy="10.8" r="6.8"></circle>
+              <path d="m16 16 4.2 4.2"></path>
+            </svg>
+            <input id="menu-search-input" type="search" placeholder="Cari nama menu atau lauk"
+              aria-label="Cari nama menu atau lauk" aria-controls="menu-search-results" aria-expanded="false">
+          </div>
+          <div class="menu-search-results" id="menu-search-results" role="listbox" aria-label="Hasil pencarian menu"
+            hidden></div>
+          <p class="menu-search-hint">Ketik nama menu atau lauk. Contoh: Nila Selaras, rendang, sate.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU KATEGORI ========== -->
+  <section class="menu-section" id="menus">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Pilihan Menu Dapur Ambu 13</p>
+        <h2>Pilih Menu Sesuai Kebutuhan</h2>
+        <p class="section-sub">Satu box per orang untuk makan siang dan rapat, atau hidangan bersama untuk acara.</p>
+      </div>
+
+      <nav class="menu-jump" aria-label="Navigasi kategori menu">
+        <a href="#sajian-nyalira">Sajian Nyalira</a>
+        <a href="#sajian-ngariung">Sajian Ngariung</a>
+      </nav>
+
+      <div class="menu-category" id="sajian-nyalira">
+        <div class="category-heading">
+          <div>
+            <h3>Sajian Nyalira (porsi per orang)</h3>
+            <p>Satu box untuk satu orang. Cocok untuk makan siang kantor, rapat, dan pelatihan. Nyalira artinya sendiri dalam bahasa Sunda.</p>
+          </div>
+        </div>
+        <div class="subcategory-nav">
+          <button type="button" class="subcategory-pill active" data-sub-target="sub-basic-box">Ambu Basic Box</button>
+          <button type="button" class="subcategory-pill" data-sub-target="sub-signature-box">Ambu Signature Box</button>
+          <button type="button" class="subcategory-pill" data-sub-target="sub-executive-box">Ambu Executive Box</button>
+          <button type="button" class="subcategory-pill" data-sub-target="sub-besekan">Besekan Ambu</button>
+          <button type="button" class="subcategory-pill" data-sub-target="sub-special-box">Ambu Special Box</button>
+        </div>
+        <h4 class="subcategory-title" id="sub-basic-box">Ambu Basic Box</h4>
+        <p>Pilihan hemat untuk kamu, dengan ayam, pendamping, dan Sambal Ambu.</p>
+        <div class="card-grid">
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Basic Box" data-name="Ambu Basic Box 1" data-price="25000"><div class="menu-card-body"><h3>Ambu Basic Box 1</h3><p class="menu-card-desc">Nasi Putih, Ayam (Goreng/Bakar), Pendamping (Perkedel Kentang/Tahu/Tempe Goreng), Tumisan (Mie Goreng/Capcay/Tumis Buncis Wortel), Sambal Ambu, Lalapan</p><div class="basic-box-options"><label class="basic-box-option">Lauk Utama<select class="option-select basic-box-choice" data-option="lauk-utama" required><option value="">Pilih lauk utama</option><option>Ayam Goreng</option><option>Ayam Bakar</option></select></label><label class="basic-box-option">Pendamping<select class="option-select basic-box-choice" data-option="pendamping" required><option value="">Pilih pendamping</option><option>Perkedel Kentang</option><option>Tahu Goreng</option><option>Tempe Goreng</option></select></label><label class="basic-box-option">Tumisan<select class="option-select basic-box-choice" data-option="tumisan" required><option value="">Pilih tumisan</option><option>Capcay</option><option>Tumis Buncis Wortel</option><option>Mie Goreng</option></select></label></div><div class="menu-card-footer"><span class="price">Rp25.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Basic Box" data-name="Ambu Basic Box 2" data-price="30000"><div class="menu-card-body"><h3>Ambu Basic Box 2</h3><p class="menu-card-desc">Nasi Putih, Ayam (Goreng/Bakar), Pendamping (Perkedel Kentang/Tahu/Tempe Goreng), Tumisan (Mie Goreng/Capcay/Tumis Buncis Wortel), Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan, Pisang</p><div class="basic-box-options"><label class="basic-box-option">Lauk Utama<select class="option-select basic-box-choice" data-option="lauk-utama" required><option value="">Pilih lauk utama</option><option>Ayam Goreng</option><option>Ayam Bakar</option></select></label><label class="basic-box-option">Pendamping<select class="option-select basic-box-choice" data-option="pendamping" required><option value="">Pilih pendamping</option><option>Perkedel Kentang</option><option>Tahu Goreng</option><option>Tempe Goreng</option></select></label><label class="basic-box-option">Tumisan<select class="option-select basic-box-choice" data-option="tumisan" required><option value="">Pilih tumisan</option><option>Capcay</option><option>Tumis Buncis Wortel</option><option>Mie Goreng</option></select></label></div><div class="menu-card-footer"><span class="price">Rp30.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-product-id="berkah-box" data-friday-only="true" data-pickup-only="true" data-category="Sajian Nyalira" data-subcategory="Ambu Basic Box" data-name="Berkah Box (Khusus Jum'at)" data-price="15000"><div class="menu-card-body"><h3>Berkah Box (Khusus Jum'at)</h3><p class="menu-card-desc">Nasi Putih, Ayam, Pendamping, Lalapan, Sambal Ambu</p><div class="menu-card-footer"><span class="price">Rp15.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+        </div>
+
+        <h4 class="subcategory-title" id="sub-signature-box">Ambu Signature Box</h4>
+        <p>Lauk utama ayam atau ikan, lengkap dengan kerupuk, air minum, dan buah.</p>
+        <div class="card-grid">
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Signature Box" data-name="Rica Membara" data-price="35000"><div class="menu-card-body"><h3>Rica Membara</h3><p class="menu-card-desc">Nasi Putih, Ayam Rica-rica, Tempe Bacem, Urab, Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Signature Box" data-name="Kriuk Gempita" data-price="35000"><div class="menu-card-body"><h3>Kriuk Gempita</h3><p class="menu-card-desc">Nasi Putih, Ayam Kremes, Telur Balado, Capcay, Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Signature Box" data-name="Nila Selaras" data-price="35000"><div class="menu-card-body"><h3>Nila Selaras</h3><p class="menu-card-desc">Nasi Uduk, Ikan Nila Goreng, Tahu Bacem, Jukut Goreng, Sambal Terasi, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Signature Box" data-name="Harum Purut" data-price="35000"><div class="menu-card-body"><h3>Harum Purut</h3><p class="menu-card-desc">Nasi Daun Jeruk, Ayam Bakar, Tahu Bacem, Oseng Cuciwis, Sambal Matah, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Signature Box" data-name="Hejo Maranggi" data-price="35000"><div class="menu-card-body"><h3>Hejo Maranggi</h3><p class="menu-card-desc">Nasi Hejo (Pewarna Alami), Sate Ayam bumbu Maranggi, Perkedel Jagung, Urab, Sambal Beledag, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Signature Box" data-name="Uduk Gemilang" data-price="35000"><div class="menu-card-body"><h3>Uduk Gemilang</h3><p class="menu-card-desc">Nasi Uduk, Ayam Serundeng, Telur Pindang, Oseng Kangkung, Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Signature Box" data-name="Kuning Dewata" data-price="35000"><div class="menu-card-body"><h3>Kuning Dewata</h3><p class="menu-card-desc">Nasi Kuning, Ayam Crispy, Sate Lilit, Urab, Sambal Matah, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+        </div>
+
+        <h4 class="subcategory-title" id="sub-executive-box">Ambu Executive Box</h4>
+        <p>Lauk utama sapi, udang, atau cumi, lengkap dengan kerupuk, air minum, dan buah.</p>
+        <div class="card-grid">
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Executive Box" data-name="Udang Asmara" data-price="40000"><div class="menu-card-body"><h3>Udang Asmara</h3><p class="menu-card-desc">Nasi Daun Jeruk, Udang Asam Manis, Tempe Bacem, Oseng Cuciwis, Sambal Ijo, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp40.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Executive Box" data-name="Maranggi Arunika" data-price="40000"><div class="menu-card-body"><h3>Maranggi Arunika</h3><p class="menu-card-desc">Nasi Putih, Sate Sapi bumbu Maranggi, Tempe Bacem, Karedok, Sambal Terasi, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp40.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Executive Box" data-name="Semur Sepuh" data-price="45000"><div class="menu-card-body"><h3>Semur Sepuh</h3><p class="menu-card-desc">Nasi Liwet Teri, Semur Sapi, Telur Pindang, Orek Tempe Basah, Capcay, Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp45.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Executive Box" data-name="Rendang Raya" data-price="45000"><div class="menu-card-body"><h3>Rendang Raya</h3><p class="menu-card-desc">Nasi Liwet Teri, Rendang Sapi, Telur Pindang, Sambal Goreng Kentang, Oseng Daun, Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp45.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Executive Box" data-name="Lada Manggala" data-price="45000"><div class="menu-card-body"><h3>Lada Manggala</h3><p class="menu-card-desc">Nasi Daun Jeruk, Sapi Lada Hitam, Telur Semur, Perkedel Jagung, Oseng Cuciwis, Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp45.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Executive Box" data-name="Bara Samudra" data-price="50000"><div class="menu-card-body"><h3>Bara Samudra</h3><p class="menu-card-desc">Nasi Uduk, Cumi Calamari, Ayam Bakar, Tahu Bacem, Oseng Kangkung, Sambal Matah, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp50.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Executive Box" data-name="Pesisir Rasa" data-price="50000"><div class="menu-card-body"><h3>Pesisir Rasa</h3><p class="menu-card-desc">Nasi Kuning, Udang Asam Manis, Ayam Goreng Rempah, Tahu Fantasi, Capcay, Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp50.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+        </div>
+
+        <h4 class="subcategory-title" id="sub-besekan">Besekan Ambu</h4>
+        <p>Dikemas dalam besek, lengkap dengan kerupuk dan buah segar.</p>
+        <div class="card-grid">
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Besekan Ambu" data-name="Besek Sajati" data-price="55000"><div class="menu-card-body"><h3>Besek Sajati</h3><p class="menu-card-desc">Nasi Liwet Teri, Ikan Nila Bakar, Ayam Kremes, Telur Asin, Tempe Bacem, Karedok, Sambal Ijo, Kerupuk, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp55.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Besekan Ambu" data-name="Besek Pusaka" data-price="55000"><div class="menu-card-body"><h3>Besek Pusaka</h3><p class="menu-card-desc">Nasi Uduk, Cumi Calamari, Ayam Goreng Rempah, Telur Balado, Sambal Goreng Kentang, Sambal Ambu, Kerupuk, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp55.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Besekan Ambu" data-name="Besek Lembayung" data-price="58000"><div class="menu-card-body"><h3>Besek Lembayung</h3><p class="menu-card-desc">Nasi Liwet Teri, Rendang Sapi, Ayam Bakar, Telur Pindang, Sambal Goreng Kentang, Urab, Sambal Ijo, Kerupuk, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp58.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Besekan Ambu" data-name="Besek Parahyangan" data-price="58000"><div class="menu-card-body"><h3>Besek Parahyangan</h3><p class="menu-card-desc">Nasi Liwet Teri Pete, Sate Sapi bumbu Maranggi, Ayam Goreng Rempah, Telur Semur, Tahu Bacem, Karedok, Sambal Ijo, Kerupuk, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp58.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+        </div>
+
+        <h4 class="subcategory-title" id="sub-special-box">Ambu Special Box</h4>
+        <p>Pilihan vegan, vegetarian, nasi bakar, dan tumpeng mini.</p>
+        <div class="card-grid">
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Special Box" data-name="Laras Asri (Vegan)" data-price="30000"><div class="menu-card-body"><h3>Laras Asri (Vegan)</h3><p class="menu-card-desc">Nasi Uduk, Tahu Bacem, Orek Tempe Kering, Perkedel Jagung, Urab, Sambal Ijo, Lalapan, Kerupuk Emping, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp30.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Special Box" data-name="Candra Kirana (Vegetarian)" data-price="30000"><div class="menu-card-body"><h3>Candra Kirana (Vegetarian)</h3><p class="menu-card-desc">Nasi Kuning, Telur Balado, Tahu Fantasi, Tempe Bacem, Karedok, Sambal Matah, Lalapan, Kerupuk Emping, Air Minum Kemasan, Buah Segar</p><div class="menu-card-footer"><span class="price">Rp30.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Special Box" data-name="Nasi Bakar Rengganis" data-price="30000"><div class="menu-card-body"><h3>Nasi Bakar Rengganis</h3><p class="menu-card-desc">Nasi Bakar, Tahu Goreng, Tempe Goreng, Oseng Kangkung, Sambal Ambu, Lalapan, Kerupuk, Air Minum Kemasan</p><div class="menu-card-footer"><span class="price">Rp30.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Special Box" data-name="Nasi Bakar Purnama" data-price="30000"><div class="menu-card-body"><h3>Nasi Bakar Purnama</h3><p class="menu-card-desc">Nasi Bakar, Telur Pindang, Perkedel Jagung, Urab, Sambal Terasi, Lalapan, Kerupuk, Air Minum Kemasan</p><div class="menu-card-footer"><span class="price">Rp30.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Special Box" data-name="Tumpeng Mini Kremes" data-price="40000"><div class="menu-card-body"><h3>Tumpeng Mini Kremes</h3><p class="menu-card-desc">Nasi Kuning, Ayam Kremes, Telur Semur, Orek Tempe Kering, Urab, Sambal Ambu, Lalapan</p><div class="menu-card-footer"><span class="price">Rp40.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Nyalira" data-subcategory="Ambu Special Box" data-name="Tumpeng Mini Bakar" data-price="40000"><div class="menu-card-body"><h3>Tumpeng Mini Bakar</h3><p class="menu-card-desc">Nasi Kuning, Ayam Bakar, Telur Pindang, Sambal Goreng Kentang, Perkedel Jagung, Sambal Beledag, Lalapan</p><div class="menu-card-footer"><span class="price">Rp40.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+        </div>
+      </div>
+
+      <div class="menu-category" id="sajian-ngariung">
+        <div class="category-heading">
+          <div>
+            <h3>Sajian Ngariung (porsi bersama)</h3>
+            <p>Hidangan untuk 10 orang atau lebih. Cocok untuk arisan, syukuran, dan acara keluarga. Ngariung artinya berkumpul dalam bahasa Sunda.</p>
+          </div>
+        </div>
+        <div class="subcategory-nav">
+          <button type="button" class="subcategory-pill active" data-sub-target="sub-tumpeng">Tumpeng</button>
+          <button type="button" class="subcategory-pill" data-sub-target="sub-liwet">Liwet</button>
+        </div>
+        <h4 class="subcategory-title" id="sub-tumpeng">Tumpeng</h4>
+        <div class="card-grid">
+          <article class="menu-card" data-category="Sajian Ngariung" data-subcategory="Tumpeng" data-name="Tumpeng Ngariung Serundeng" data-price="35000" data-min-order="10" data-step="5"><div class="menu-card-body"><h3>Tumpeng Ngariung Serundeng</h3><p class="menu-card-desc">Nasi Kuning, Ayam Serundeng, Telur Balado, Mie Goreng, Perkedel Kentang, Sambal Ambu, Lalapan</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Ngariung" data-subcategory="Tumpeng" data-name="Tumpeng Ngariung Kremes" data-price="35000" data-min-order="10" data-step="5"><div class="menu-card-body"><h3>Tumpeng Ngariung Kremes</h3><p class="menu-card-desc">Nasi Kuning, Ayam Kremes, Telur Semur, Orek Tempe Kering, Urab, Sambal Ambu, Lalapan</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Ngariung" data-subcategory="Tumpeng" data-name="Tumpeng Ngariung Bakar" data-price="35000" data-min-order="10" data-step="5"><div class="menu-card-body"><h3>Tumpeng Ngariung Bakar</h3><p class="menu-card-desc">Nasi Kuning, Ayam Bakar, Telur Pindang, Sambal Goreng Kentang, Perkedel Jagung, Sambal Beledag, Lalapan</p><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+        </div>
+
+        <h4 class="subcategory-title" id="sub-liwet">Liwet</h4>
+        <div class="card-grid">
+          <article class="menu-card" data-category="Sajian Ngariung" data-subcategory="Liwet" data-name="Liwet Ngariung Goreng" data-price="35000" data-min-order="10" data-step="5"><div class="menu-card-body"><h3>Liwet Ngariung Goreng</h3><p class="menu-card-desc">Nasi Liwet Teri Pete, Ayam Goreng Rempah, Perkedel Kentang, Asin Cumi Cabe Ijo, Urab, Mie Goreng, Sambal Ambu, Lalapan</p><div class="basic-box-options"><label class="basic-box-option">Pilihan Kemasan<select class="option-select liwet-choice" data-option="kemasan" required><option value="">Pilih kemasan</option><option value="Gulung">Gulung</option><option value="Kastrol Nampah">Kastrol Nampah</option><option value="Prasmanan Nampah">Prasmanan Nampah</option></select></label></div><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+          <article class="menu-card" data-category="Sajian Ngariung" data-subcategory="Liwet" data-name="Liwet Ngariung Bakar" data-price="35000" data-min-order="10" data-step="5"><div class="menu-card-body"><h3>Liwet Ngariung Bakar</h3><p class="menu-card-desc">Nasi Liwet Teri Pete, Ayam Bakar, Tahu Bacem, Balado Asin Kipas, Karedok, Orek Tempe Basah, Sambal Ambu, Lalapan</p><div class="basic-box-options"><label class="basic-box-option">Pilihan Kemasan<select class="option-select liwet-choice" data-option="kemasan" required><option value="">Pilih kemasan</option><option value="Gulung">Gulung</option><option value="Kastrol Nampah">Kastrol Nampah</option><option value="Prasmanan Nampah">Prasmanan Nampah</option></select></label></div><div class="menu-card-footer"><span class="price">Rp35.000</span><button class="btn btn-add" data-type="menu">Tambah ke Pesanan</button></div></div></article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SECTION 3: CRAFT YOUR OWN MENU ========== -->
+  <section class="menu-section cyo-section" id="cyo">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Fitur Andalan</p>
+        <h2>Terserah Kamu Aja</h2>
+        <p class="section-sub">Pilih sajian, isi setiap bagian, dan lihat harganya langsung. Minimal 10 porsi.</p>
+        <ol class="cyo-steps">
+          <li>Pilih Sajian Nyalira atau Sajian Ngariung.</li>
+          <li>Klik bagian box, lalu pilih nasi, lauk, dan sayur.</li>
+          <li>Atur jumlah porsi dan tambahkan ke pesanan.</li>
+        </ol>
+      </div>
+
+      <div class="cyo-menu-types" id="cyo-menu-types" role="tablist" aria-label="Jenis menu">
+        <button class="cyo-menu-type active" data-menu-type="Sajian Nyalira" role="tab"
+          aria-selected="true">Sajian Nyalira</button>
+        <button class="cyo-menu-type" data-menu-type="Sajian Ngariung" role="tab"
+          aria-selected="false">Sajian Ngariung</button>
+      </div>
+
+      <div class="cyo-sub-menu-types" id="cyo-sub-menu-types" role="tablist" aria-label="Pilihan bentuk sajian"></div>
+
+      <div class="cyo-workspace">
+        <div class="cyo-layout-card">
+          <div class="cyo-layout-label">
+            <span id="cyo-layout-name">Sajian Nyalira &mdash; Kotak Ini</span>
+            <span>Klik bagian untuk mengisi</span>
+          </div>
+          <div class="cyo-svg-layout" id="cyo-layout" aria-label="Layout menu interaktif" aria-live="polite">
+            <svg viewBox="0 0 10000.02 10000.02" role="img" aria-label="Layout Craft Your Own">
+              <defs>
+                <clipPath id="clip-section-1">
+                  <use href="#section-1"></use>
+                </clipPath>
+                <clipPath id="clip-section-2">
+                  <use href="#section-2"></use>
+                </clipPath>
+                <clipPath id="clip-section-3">
+                  <use href="#section-3"></use>
+                </clipPath>
+                <clipPath id="clip-section-4">
+                  <use href="#section-4"></use>
+                </clipPath>
+                <clipPath id="clip-section-5">
+                  <use href="#section-5"></use>
+                </clipPath>
+                <clipPath id="clip-section-6">
+                  <use href="#section-6"></use>
+                </clipPath>
+              </defs>
+              <rect class="cyo-svg-base" x="8.43" y="8.44" width="9983.11" height="9983.11" rx="499.14" ry="499.14">
+              </rect>
+              <g class="cyo-svg-images"></g>
+              <g class="cyo-svg-sections">
+                <path id="section-1" class="cyo-curve"
+                  d="M5000 2629.01c1309.44 0 2371 1061.55 2371 2371 0 1309.44 -1061.55 2371 -2371 2371 -1309.44 0 -2370.99 -1061.55 -2370.99 -2371 0 -1309.44 1061.54 -2371 2370.99 -2371z">
+                </path>
+                <path id="section-2" class="cyo-curve"
+                  d="M4625.65 9741.99l-4118.05 0c-137.28 0 -249.57 -112.28 -249.57 -249.57l0 -2611.19 0.01 0c0 -101.94 62.93 -197.63 164.27 -234.52l84.05 -31.3 1800.34 -655.33c117.19 -41.93 245.26 9.12 303.09 115.35 220.83 489.36 587.31 900.48 1048.74 1176.03l0 0.51c315.73 188.53 662.35 306 1026.48 349.68 108.87 26.81 190.2 125.54 190.2 242.38l0 1649.31c-0.5 136.86 -112.58 248.65 -249.56 248.65z">
+                </path>
+                <path id="section-3" class="cyo-curve"
+                  d="M9741.98 5373.45l0 4118.97c0 137.29 -112.28 249.57 -249.57 249.57l-4118.06 0c-136.68 0 -248.56 -111.29 -249.55 -247.74l0 -1650.22c0 -139.87 115.72 -247.79 249.57 -249.57l0 -0.1c349.31 -50.03 676.43 -168.81 967.11 -342.39l0 -0.47c682.57 -407.57 1164.19 -1116.71 1261 -1943.47 29.23 -105.34 126.22 -183.23 240.55 -183.23l1649.39 0c136.98 0 249.05 111.79 249.56 248.65z">
+                </path>
+                <path id="section-4" class="cyo-curve"
+                  d="M5374.37 258.04l4118.04 0c137.29 0 249.57 112.29 249.57 249.57l0 4118.04c0 136.98 -111.79 249.05 -248.65 249.56l-1650.3 -0.02c-114.34 0 -211.33 -77.9 -240.56 -183.25 -97.33 -830.83 -583.22 -1542.82 -1271.14 -1949.39 -291.2 -172.1 -611.23 -285.25 -945.84 -334.73 -24.84 -3.68 -49.76 -7.05 -74.81 -10.02 -106.69 -28.33 -185.88 -125.98 -185.88 -241.27l0 -1648.91c0 -137.28 112.28 -249.57 249.57 -249.57z">
+                </path>
+                <path id="section-5" class="cyo-curve"
+                  d="M507.6 258.04l3150.93 0 967.12 0c136.98 0 249.06 111.79 249.56 248.65l0 682.7 0 967.12c0 141.66 -104.52 239.29 -249.57 249.57 -145.94 10.35 -436.14 95.49 -597.66 159.77l-354.89 174.09c-467.43 275.05 -839.04 688.84 -1062.29 1182.45 -58.17 106.36 -187.77 159.84 -305.18 117.09l-1800.19 -655.22 -83.11 -30.95c-101.34 -36.9 -164.27 -132.59 -164.27 -234.52l-0.01 0 0 -2611.18c0 -137.28 112.29 -249.57 249.57 -249.57z">
+                </path>
+                <path id="section-6" class="cyo-curve"
+                  d="M507.6 3652.56l1700.99 617.6c123.24 44.73 214.66 107.86 214.66 250.89 -28.69 155.31 -43.82 315.36 -43.82 478.97 0 163.55 15.11 323.54 43.79 478.8 -1.4 134.94 -86.87 199.37 -214.63 246.24l-1700.99 624.18c-128.84 47.27 -249.57 -21.32 -249.57 -158.61l0 -2381.23c0 -137.29 120.54 -203.67 249.57 -156.83z">
+                </path>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Pilihan Pelengkap & Rekap Otomatis (di luar section tapi di sekitar layout) -->
+          <!-- Pilihan Pelengkap & Rekap Otomatis (di luar section tapi di sekitar layout) -->
+          <div class="cyo-pelengkap-card" id="cyo-pelengkap-card">
+            <div class="cyo-pelengkap-header">
+              <h4>Pelengkap</h4>
+              <button type="button" id="cyo-reset-sections-btn" class="cyo-clear-section-btn"
+                title="Reset semua pilihan bagian dan pelengkap" aria-label="Reset semua pilihan bagian">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 12a9 9 0 1 0 2.64-6.36L3 8"></path>
+                  <path d="M3 3v5h5"></path>
+                </svg>
+                <span>Reset Bagian</span>
+              </button>
+            </div>
+
+            <div class="cyo-pelengkap-controls">
+              <!-- 1. Pilihan Sambal -->
+              <div class="cyo-field-group">
+                <label for="cyo-select-sambal">1. Pilihan Sambal:</label>
+                <select id="cyo-select-sambal" class="cyo-dropdown">
+                  <option value="">Memuat pilihan...</option>
+                </select>
+              </div>
+
+              <!-- 2. Pilihan Buah -->
+              <div class="cyo-field-group">
+                <label for="cyo-select-buah">2. Pilihan Buah:</label>
+                <select id="cyo-select-buah" class="cyo-dropdown">
+                  <option value="">Memuat pilihan...</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- 3. Pelengkap Tambahan (Checkbox: Lalapan, Kerupuk, Air Minum Kemasan) -->
+            <div class="cyo-field-group cyo-checkbox-section">
+              <span class="cyo-field-label">3. Pelengkap Tambahan:</span>
+              <div class="cyo-checkboxes" id="cyo-pelengkap-checkboxes"></div>
+            </div>
+
+            <div class="cyo-pelengkap-recap-box" id="cyo-pelengkap-recap-box">
+              <span class="cyo-recap-tag">Catatan Pelengkap:</span>
+              <span class="cyo-recap-text" id="cyo-pelengkap-recap-text">Belum ada pelengkap dipilih</span>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="cyo-options-backdrop" id="cyo-options-backdrop"
+          aria-label="Tutup pilihan bahan"></button>
+        <div class="cyo-builder" id="cyo-ingredient-picker" aria-label="Pilih bahan untuk section">
+          <div class="cyo-panel-heading">
+            <div class="cyo-active-heading-wrap">
+              <div class="cyo-heading-title-group">
+                <h3 id="cyo-active-title">Pilih Isi Hidangan</h3>
+                <span class="cyo-section-target" id="cyo-active-section-target">Mengisi: Bagian 1</span>
+              </div>
+              <button type="button" id="cyo-clear-section-btn" class="cyo-clear-section-btn"
+                title="Kosongkan isi section ini" aria-label="Kosongkan section aktif">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+                <span>Kosongkan Bagian</span>
+              </button>
+            </div>
+            <button type="button" class="cyo-picker-close" id="cyo-picker-close"
+              aria-label="Tutup pilihan bahan">&times;</button>
+          </div>
+          <div class="cyo-category-tabs" role="tablist" aria-label="Kategori bahan">
+            <button class="cyo-category-tab active" data-cyo-category="nasi" role="tab"
+              aria-selected="true">Nasi</button>
+            <button class="cyo-category-tab" data-cyo-category="laukUtama" role="tab" aria-selected=  "false">Lauk
+              Utama</button>
+            <button class="cyo-category-tab" data-cyo-category="laukPendamping" role="tab" aria-selected="false">Lauk
+              Pendamping</button>
+            <button class="cyo-category-tab" data-cyo-category="sayuran" role="tab"
+              aria-selected="false">Sayuran &amp; Tumisan</button>
+          </div>
+          <div class="cyo-options" id="cyo-options"></div>
+          <p class="cyo-free-note">Klik hidangan untuk mengisi bagian yang sedang dipilih.</p>
+        </div>
+      </div>
+
+      <section class="cyo-ingredients-recap" aria-labelledby="cyo-recap-title">
+        <div class="cyo-ingredients-recap-heading">
+          <h3 id="cyo-recap-title">Pilihanmu</h3>
+          <span id="cyo-recap-count">0 bagian terisi</span>
+        </div>
+        <p class="cyo-recap-empty" id="cyo-recap-empty">Pilihanmu muncul di sini setelah kamu memilih hidangan.</p>
+        <ul class="cyo-ingredients-list" id="cyo-ingredients-list" aria-live="polite"></ul>
+      </section>
+
+      <div class="cyo-order-summary">
+        <div class="cyo-price-breakdown">
+          <div><span class="summary-label">Hidangan per porsi</span><strong id="cyo-unit-price">Rp0</strong></div>
+          <div><span class="summary-label">Kemasan &amp; layanan per porsi</span><strong id="cyo-packaging-price">Rp0</strong></div>
+          <div><span class="summary-label">Harga per porsi (termasuk kemasan)</span><strong id="cyo-unit-total">Rp0</strong></div>
+        </div>
+        <div class="cyo-packaging-control" id="cyo-packaging-control" hidden>
+          <div class="cyo-field-group">
+            <label for="cyo-packaging-select">Pilih kemasan</label>
+            <select id="cyo-packaging-select" class="cyo-dropdown">
+              <option value="">Pilih kemasan</option>
+              <option value="Tumpeng Hias">Tumpeng Hias</option>
+              <option value="Gulung">Gulung</option>
+              <option value="Kastrol Nampah">Kastrol Nampah</option>
+              <option value="Prasmanan Nampah">Prasmanan Nampah</option>
+            </select>
+          </div>
+        </div>
+        <div class="cyo-portion-control">
+          <span class="summary-label" id="cyo-portion-label">Porsi (minimal 10)</span>
+          <div class="quantity-control">
+            <button type="button" id="cyo-portion-decrease" aria-label="Kurangi porsi">&minus;</button>
+            <input type="number" id="cyo-portion-input" min="10" value="10" aria-label="Jumlah porsi, minimal 10">
+            <button type="button" id="cyo-portion-increase" aria-label="Tambah porsi">+</button>
+          </div>
+        </div>
+        <div class="cyo-subtotal-summary"><span class="summary-label">Subtotal akhir</span><strong id="cyo-subtotal">Rp0</strong></div>
+        <button class="btn btn-primary" id="add-cyo-btn">Tambah ke Pesanan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about-section" id="about">
+    <div class="container about-inner">
+      <div class="about-copy">
+        <p class="eyebrow">Cerita Kami</p>
+        <h2>Berawal dari usaha akhir pekan, sekarang melayani pesanan harian.</h2>
+        <p>Dapur Ambu 13 mulai sebagai usaha akhir pekan. Pelanggan terus memesan ulang, jadi kami membuka dapur katering. Kami memakai bahan lokal dan memasak sesuai jumlah pesanan. Tingkat pedas bisa diatur saat kamu memesan. Kami melayani pesanan mulai 10 porsi sampai [isi: acara terbesar yang pernah dilayani].</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT / CTA ========== -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-inner">
+      <h2>Pesan lewat WhatsApp</h2>
+      <p>Pilih menu di atas, isi nama dan tanggal pengiriman, lalu kirim pesanan ke WhatsApp kami. Tanpa akun. DP 50% untuk mengunci tanggalmu.</p>
+      <p>Pesan paling lambat 3 hari sebelum tanggal acara. Area antar: Bandung Raya.</p>
+      <div class="contact-details">
+        <div class="contact-item">
+          <strong>Jam Operasional</strong>
+          <span>Senin&ndash;Sabtu, 06.00&ndash;21.00</span>
+        </div>
+        <div class="contact-item">
+          <strong>Lokasi</strong>
+          <span>Padalarang, Bandung Barat</span>
+        </div>
+      </div>
+      <div class="contact-social-links" aria-label="Hubungi Dapur Ambu 13">
+        <a class="contact-link-btn" href="https://wa.me/6281776759615" target="_blank" rel="noopener noreferrer">
+          WhatsApp
+        </a>
+        <a class="contact-link-btn" href="https://instagram.com/dapurambu_13?mdxt=MTRiczk3c2VndzFmOA%3D%3D" target="_blank" rel="noopener noreferrer">
+          Instagram
+        </a>
+        <a class="contact-link-btn" href="https://www.tiktok.com/@dapurambu_13?_r=1&amp;_t=ZS-9AXsh0avvnR" target="_blank" rel="noopener noreferrer">
+          TikTok
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="Assets/Logo/Logo DapurAmbu.png" alt="Logo Katering Dapur Ambu 13" class="footer-logo">
+      </div>
+      <p>&copy; <span id="year"></span> Dapur Ambu 13. Hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <!-- ========== SLIDE-OUT CART PANEL ========== -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel" aria-label="Keranjang pesanan">
+    <div class="cart-panel-header">
+      <h3>Pesananmu</h3>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Tutup keranjang">&times;</button>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+      <p class="empty-cart-msg" id="empty-cart-msg">Keranjang masih kosong. Pilih menu atau racik box sendiri.</p>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cart-total">Rp0</span>
+      </div>
+
+      <p class="cart-payment-note" id="cart-payment-note">
+        <span id="cart-payment-label">DP minimal 50% dari total:</span>
+        <strong id="cart-deposit">Rp0</strong>
+      </p>
+
+      <div class="cart-customer-fields">
+        <label for="customer-name">Nama</label>
+        <input type="text" id="customer-name" placeholder="Nama kamu">
+
+        <div class="delivery-schedule-grid" id="delivery-schedule-grid">
+          <div class="delivery-date-field">
+            <label for="delivery-date" id="delivery-date-label">Tanggal pengiriman</label>
+            <div class="delivery-date-picker">
+              <input type="text" id="delivery-date" inputmode="numeric" placeholder="DD/MM/YYYY"
+                pattern="\\d{2}/\\d{2}/\\d{4}" required aria-describedby="delivery-date-display">
+              <input type="date" id="delivery-date-native" class="delivery-date-native" tabindex="-1" aria-hidden="true">
+            </div>
+          </div>
+          <div class="delivery-time-field" id="delivery-time-field">
+            <label for="delivery-time">Jam pengiriman</label>
+            <select id="delivery-time" required>
+              <option value="">Pilih jam</option>
+            </select>
+          </div>
+          <output class="delivery-date-display" id="delivery-date-display" for="delivery-date"></output>
+        </div>
+
+        <div class="pickup-details" id="pickup-details" hidden>
+          <p id="pickup-time-text"></p>
+          <p id="pickup-address-text"></p>
+        </div>
+
+        <div id="delivery-address-field">
+          <label for="customer-address">Alamat pengantaran</label>
+          <textarea id="customer-address" rows="2" placeholder="Alamat lengkap pengantaran" required></textarea>
+        </div>
+
+        <label for="customer-notes">Catatan (opsional)</label>
+        <textarea id="customer-notes" rows="2" placeholder="Alergi makanan, atau catatan lain"></textarea>
+      </div>
+
+      <button class="btn btn-primary btn-full" id="order-whatsapp-btn">
+        Kirim Pesanan lewat WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

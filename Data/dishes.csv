@@ -1,0 +1,80 @@
+Kategori,Jenis Box,Nama Dish,HPP per porsi
+Nasi,Semua Jenis Box,Nasi Putih,Rp2.000
+Nasi,Semua Jenis Box,Nasi Kuning,Rp3.000
+Nasi,Semua Jenis Box,Nasi Hejo,Rp3.000
+Nasi,Semua Jenis Box,Nasi Daun Jeruk,Rp3.000
+Nasi,Semua Jenis Box,Nasi Uduk,Rp3.000
+Nasi,Semua Jenis Box,Nasi Liwet Teri,Rp3.000
+Nasi,Semua Jenis Box,Nasi Liwet Teri Pete,Rp3.000
+Nasi,Semua Jenis Box,Nasi Tutug Oncom,Rp3.000
+Nasi,"Kotak Ini, Kotak itu",Nasi Bakar,Rp7.000
+Lauk Utama,Semua Jenis Box,Ayam Goreng Rempah,Rp6.000
+Lauk Utama,Semua Jenis Box,Ayam Crispy,Rp6.000
+Lauk Utama,Semua Jenis Box,Ayam Kremes,Rp6.000
+Lauk Utama,Semua Jenis Box,Ayam Serundeng,Rp6.000
+Lauk Utama,Semua Jenis Box,Ayam Bakar,Rp6.000
+Lauk Utama,Semua Jenis Box,Ayam Rica-rica,Rp6.000
+Lauk Utama,Semua Jenis Box,Ayam Suwir,Rp6.000
+Lauk Utama,Semua Jenis Box,Sate Ayam bumbu Maranggi,Rp6.000
+Lauk Utama,Semua Jenis Box,Sate Ayam bumbu Kacang,Rp6.000
+Lauk Utama,Semua Jenis Box,Sate Sapi bumbu Maranggi,Rp10.000
+Lauk Utama,Semua Jenis Box,Sate Sapi bumbu Kacang,Rp10.000
+Lauk Utama,Semua Jenis Box,Rendang Sapi,Rp10.000
+Lauk Utama,Semua Jenis Box,Semur Sapi,Rp10.000
+Lauk Utama,Semua Jenis Box,Sapi Lada Hitam,Rp10.000
+Lauk Utama,Semua Jenis Box,Gepuk Sapi,Rp10.000
+Lauk Utama,Semua Jenis Box,Cumi Calamari,Rp9.000
+Lauk Utama,Semua Jenis Box,Udang Asam Manis,Rp9.000
+Lauk Utama,Semua Jenis Box,Ikan Kembung Balado,Rp8.000
+Lauk Utama,Semua Jenis Box,Ikan Nila Goreng,Rp6.000
+Lauk Utama,Semua Jenis Box,Ikan Nila Bakar,Rp6.000
+Lauk Pendamping,Semua Jenis Box,Sate Lilit,Rp2.000
+Lauk Pendamping,Semua Jenis Box,Telur Asin,Rp3.500
+Lauk Pendamping,Semua Jenis Box,Telur Semur,Rp2.000
+Lauk Pendamping,Semua Jenis Box,Telur Pindang,Rp2.000
+Lauk Pendamping,Semua Jenis Box,Telur Balado,Rp2.000
+Lauk Pendamping,Semua Jenis Box,Tahu Goreng,Rp1.500
+Lauk Pendamping,Semua Jenis Box,Tahu Bacem,Rp1.500
+Lauk Pendamping,Semua Jenis Box,Tahu Fantasi,Rp1.500
+Lauk Pendamping,Semua Jenis Box,Tempe Goreng,Rp1.500
+Lauk Pendamping,Semua Jenis Box,Tempe Bacem,Rp1.500
+Lauk Pendamping,Semua Jenis Box,Orek Tempe Kering,Rp1.500
+Lauk Pendamping,Semua Jenis Box,Orek Tempe Basah,Rp1.500
+Lauk Pendamping,Semua Jenis Box,Perkedel Kentang,Rp1.500
+Lauk Pendamping,Semua Jenis Box,Perkedel Jagung,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Sambal Goreng Kentang,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Capcay,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Mie Goreng,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Bihun Goreng,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Shoun Cabe Kecap,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Urab,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Jukut Goreng,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Karedok (Campur/Leunca/Kacang Panjang),Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Lotek,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Oseng Kangkung,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Oseng Daun Lejet/Pepaya/Singkong,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Oseng Cuciwis,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Asin Cumi Cabe Ijo,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Balado Asin Kipas,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Asin Inul,Rp1.500
+Sayuran & Tumisan,Semua Jenis Box,Asin Cingeng,Rp1.500
+Pelengkap > Buah,"Kotak Ini, Kotak itu, Besekan",Pisang,Rp2.000
+Pelengkap > Buah,"Kotak Ini, Kotak itu, Besekan",Jeruk,Rp2.000
+Pelengkap > Buah,"Kotak Ini, Kotak itu, Besekan",Semangka,Rp2.000
+Pelengkap > Buah,"Kotak Ini, Kotak itu, Besekan",Melon,Rp2.000
+Pelengkap > Buah,"Kotak Ini, Kotak itu, Besekan",Salak,Rp2.000
+,,,
+Pelengkap > Sambal,Semua Jenis Box,Sambal Ambu,Rp500
+Pelengkap > Sambal,Semua Jenis Box,Sambal Terasi,Rp500
+Pelengkap > Sambal,Semua Jenis Box,Sambal Ijo,Rp500
+Pelengkap > Sambal,Semua Jenis Box,Sambal Beledag,Rp500
+Pelengkap > Sambal,Semua Jenis Box,Sambal Matah,Rp500
+Pelengkap,Semua Jenis Box,Lalapan,Rp500
+Pelengkap,Semua Jenis Box,Kerupuk,Rp500
+Pelengkap,Semua Jenis Box,Kerupuk Emping,Rp500
+Pelengkap,"Kotak Ini, Kotak itu",Air Minum Kemasan,Rp500
+,,,
+Kemasan,"Kotak Ini, Kotak itu",Box Signature/ Executive ,Rp4.000
+Kemasan,Tumpeng Mini,Kemasan Tumpeng Mini,Rp7.000
+Kemasan,Besekan,Besek Bambu,Rp7.000
+Kemasan,Semua Sajian Ngariung,Kemasan Sajian Ngariung,Rp5.000

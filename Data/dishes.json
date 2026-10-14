@@ -1,0 +1,671 @@
+[
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Nasi Putih",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Nasi Kuning",
+        "hpp":  3000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-kuning.png"
+    },
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Nasi Hejo",
+        "hpp":  3000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-hejo.png"
+    },
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Nasi Daun Jeruk",
+        "hpp":  3000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-daun-jeruk.png"
+    },
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Nasi Uduk",
+        "hpp":  3000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-uduk.png"
+    },
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Nasi Liwet Teri",
+        "hpp":  3000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-liwet-teri.png"
+    },
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Nasi Liwet Teri Pete",
+        "hpp":  3000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-liwet-teri-pete.png"
+    },
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Nasi Tutug Oncom",
+        "hpp":  3000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-tutug-oncom.png"
+    },
+    {
+        "kategori":  "Nasi",
+        "jenis_box":  [
+                          "Kotak Ini",
+                          "Kotak itu"
+                      ],
+        "nama":  "Nasi Bakar",
+        "hpp":  7000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-bakar.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ayam Goreng Rempah",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ayam-goreng-rempah.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ayam Crispy",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ayam-crispy.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ayam Kremes",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ayam-kremes.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ayam Serundeng",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ayam-serundeng.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ayam Bakar",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ayam-bakar.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ayam Rica-rica",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ayam-rica-rica.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ayam Suwir",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ayam-suwir.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sate Ayam bumbu Maranggi",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/sate-ayam-bumbu-maranggi.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sate Ayam bumbu Kacang",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/sate-ayam-bumbu-kacang.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sate Sapi bumbu Maranggi",
+        "hpp":  10000,
+        "gambar":  "Assets/Placeholder Ingredients/sate-sapi-bumbu-maranggi.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sate Sapi bumbu Kacang",
+        "hpp":  10000,
+        "gambar":  "Assets/Placeholder Ingredients/sate-sapi-bumbu-kacang.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Rendang Sapi",
+        "hpp":  10000,
+        "gambar":  "Assets/Placeholder Ingredients/rendang-sapi.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Semur Sapi",
+        "hpp":  10000,
+        "gambar":  "Assets/Placeholder Ingredients/semur-sapi.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sapi Lada Hitam",
+        "hpp":  10000,
+        "gambar":  "Assets/Placeholder Ingredients/sapi-lada-hitam.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Gepuk Sapi",
+        "hpp":  10000,
+        "gambar":  "Assets/Placeholder Ingredients/gepuk-sapi.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Cumi Calamari",
+        "hpp":  9000,
+        "gambar":  "Assets/Placeholder Ingredients/cumi-calamari.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Udang Asam Manis",
+        "hpp":  9000,
+        "gambar":  "Assets/Placeholder Ingredients/udang-asam-manis.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ikan Kembung Balado",
+        "hpp":  8000,
+        "gambar":  "Assets/Placeholder Ingredients/ikan-kembung-balado.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ikan Nila Goreng",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ikan-nila-goreng.png"
+    },
+    {
+        "kategori":  "Lauk Utama",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Ikan Nila Bakar",
+        "hpp":  6000,
+        "gambar":  "Assets/Placeholder Ingredients/ikan-nila-bakar.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sate Lilit",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/sate-lilit.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Telur Asin",
+        "hpp":  3500,
+        "gambar":  "Assets/Placeholder Ingredients/telur-asin.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Telur Semur",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/telur-semur.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Telur Pindang",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/telur-pindang.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Telur Balado",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/telur-balado.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Tahu Goreng",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/tahu-goreng.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Tahu Bacem",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/tahu-bacem.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Tahu Fantasi",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/tahu-fantasi.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Tempe Goreng",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/tempe-goreng.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Tempe Bacem",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/tempe-bacem.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Orek Tempe Kering",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/orek-tempe-kering.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Orek Tempe Basah",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/orek-tempe-basah.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Perkedel Kentang",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/perkedel-kentang.png"
+    },
+    {
+        "kategori":  "Lauk Pendamping",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Perkedel Jagung",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/perkedel-jagung.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sambal Goreng Kentang",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/sambal-goreng-kentang.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Capcay",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/capcay.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Mie Goreng",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/mie-goreng.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Bihun Goreng",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/bihun-goreng.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Shoun Cabe Kecap",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/shoun-cabe-kecap.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Urab",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/urab.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Jukut Goreng",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/jukut-goreng.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Karedok (Campur/Leunca/Kacang Panjang)",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/karedok-campur-leunca-kacang-panjang-.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Lotek",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/lotek.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Oseng Kangkung",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/oseng-kangkung.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Oseng Daun Lejet/Pepaya/Singkong",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/oseng-daun-lejet-pepaya-singkong.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Oseng Cuciwis",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/oseng-cuciwis.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Asin Cumi Cabe Ijo",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/asin-cumi-cabe-ijo.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Balado Asin Kipas",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/balado-asin-kipas.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Asin Inul",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/asin-inul.png"
+    },
+    {
+        "kategori":  "Sayuran \u0026 Tumisan",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Asin Cingeng",
+        "hpp":  1500,
+        "gambar":  "Assets/Placeholder Ingredients/asin-cingeng.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Buah",
+        "jenis_box":  [
+                          "Kotak Ini",
+                          "Kotak itu",
+                          "Besekan"
+                      ],
+        "nama":  "Pisang",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Buah",
+        "jenis_box":  [
+                          "Kotak Ini",
+                          "Kotak itu",
+                          "Besekan"
+                      ],
+        "nama":  "Jeruk",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Buah",
+        "jenis_box":  [
+                          "Kotak Ini",
+                          "Kotak itu",
+                          "Besekan"
+                      ],
+        "nama":  "Semangka",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Buah",
+        "jenis_box":  [
+                          "Kotak Ini",
+                          "Kotak itu",
+                          "Besekan"
+                      ],
+        "nama":  "Melon",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Buah",
+        "jenis_box":  [
+                          "Kotak Ini",
+                          "Kotak itu",
+                          "Besekan"
+                      ],
+        "nama":  "Salak",
+        "hpp":  2000,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Sambal",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sambal Ambu",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/sambal-ambu.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Sambal",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sambal Terasi",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/sambal-terasi.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Sambal",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sambal Ijo",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/sambal-ijo.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Sambal",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sambal Beledag",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/sambal-beledag.png"
+    },
+    {
+        "kategori":  "Pelengkap \u003e Sambal",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Sambal Matah",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/sambal-matah.png"
+    },
+    {
+        "kategori":  "Pelengkap",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Lalapan",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Pelengkap",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Kerupuk",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Pelengkap",
+        "jenis_box":  [
+                          "Semua Jenis Box"
+                      ],
+        "nama":  "Kerupuk Emping",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    },
+    {
+        "kategori":  "Pelengkap",
+        "jenis_box":  [
+                          "Kotak Ini",
+                          "Kotak itu"
+                      ],
+        "nama":  "Air Minum Kemasan",
+        "hpp":  500,
+        "gambar":  "Assets/Placeholder Ingredients/nasi-putih.png"
+    }
+]
