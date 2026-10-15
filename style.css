@@ -819,6 +819,10 @@ select {
   color: rgba(42, 42, 42, 0.72);
 }
 
+.menu-card-note {
+  grid-row: 3;
+}
+
 .option-group {
   display: flex;
   flex-direction: column;
